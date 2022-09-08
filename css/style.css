@@ -217,48 +217,45 @@ button:after {
 }
 
 .container h2{
-    text-decoration: underline;
-    font-size: 20px;
-    color: #000;
     text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: 1px solid #000;
     font-family: 'Montserrat Alternates', sans-serif;
-    padding-bottom: 20px;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3px;
 } 
 
-.card{
-    overflow: hidden;
-    padding: 20px;
-    margin-right: 10px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-    text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    margin: 5% 0;
 }
 
+.card {
+    overflow: hidden;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 30px;
+    border: 1px solid #000;
+    text-align: center;
+}
 
-
-.card_img img{
+.card_img img {
     width: 100%;
     height: auto;
     border-radius: 20px;
 }
 
-.card_body{
-    padding: auto;
+.card_body {
+    padding: 26px 20px 36px 20px;
 }
 
 .card_title{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 900px;
-    font-size: 22px;
+    font-size: 16px;
     text-transform: none;
-    padding-top: 20px;
+    padding-top: -10px;
 }
 
 .card_body p{
@@ -278,7 +275,7 @@ button:after {
 
 p.card_author{
     font-size: 11px;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 p.card_author a{
@@ -297,12 +294,13 @@ a.read_more{
     font-size: 13px;
     letter-spacing: 1.1px;
     padding: 24px 0;
-    width: 70%;
+    width: 100%;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 20px;
     border-radius: 15px;
     font-family: 'Montserrat Alternates', sans-serif;
     transition: all 0.8s ease-in-out;
+    margin-bottom: -20px;
 }
 
 a.read_more:hover{
