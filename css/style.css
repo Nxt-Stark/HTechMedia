@@ -240,6 +240,7 @@ button:after {
     text-align: center;
 }
 
+
 .card_img img {
     width: 100%;
     height: auto;
@@ -351,6 +352,8 @@ a.read_more:hover{
     margin: 0 8px;
     color: #000000;
     border: 2px solid #000000;
+    margin-top: -13px;
+    margin-bottom: -10px;
 }
 
 .footer ul{
@@ -612,44 +615,33 @@ a.read_more:hover{
     .container h2{
         text-decoration: underline;
         font-size: 20px;
-        color: #000;
+        color: rgb(0, 0, 0);
         text-align: center;
         font-family: 'Montserrat Alternates', sans-serif;
         padding-bottom: 20px;
     }
+
+
     
+    .grid {
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3%;
+        margin: 5% 0;
+    }
     
-    .card1{
+    .card{
         overflow: hidden;
         padding: 20px;
         margin-right: 10px;
         background-color: rgb(255, 255, 255);
         border-radius: 30px;
+        margin-bottom: 20px;
         text-align: center;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
 
-    .card2{
-        overflow: hidden;
-        padding: 20px;
-        margin-top: 20px;
-        margin-right: 10px;
-        background-color: rgb(255, 255, 255);
-        border-radius: 30px;
-        text-align: center;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    }
     
-    .card3{
-        overflow: hidden;
-        padding: 20px;
-        margin-right: 10px;
-        background-color: rgb(255, 255, 255);
-        border-radius: 30px;
-        margin-top: 20px;
-        text-align: center;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    }
     
     .card_img img{
         width: 100%;
@@ -665,15 +657,17 @@ a.read_more:hover{
         font-family: 'Montserrat Alternates', sans-serif;
         font-weight: 900px;
         margin-top:0px;
-        font-size: 18px;
+        font-size: 16px;
         text-transform: none;
-        padding-top: 20px;
+        padding-top: 0px;
+        text-align: center;
     }
     
     .card_body p{
         font-weight: 4010px;
+        text-align: center;
         margin-top: 0%;
-        font-size: 12px;
+        font-size: 8px;
         font-family: 'Montserrat Alternates', sans-serif;
         color: #0088cc;
         line-height: 1.7;
@@ -687,8 +681,9 @@ a.read_more:hover{
     }
     
     p.card_author{
-        font-size: 11px;
+        font-size: 7px;
         padding-top: 0px;
+        padding-bottom: 5px;
     }
     
     p.card_author a{
@@ -704,13 +699,13 @@ a.read_more:hover{
         background-color: #000;
         color: rgb(255, 255, 255);
         text-decoration: none;
-        font-size: 13px;
+        font-size: 9px;
         letter-spacing: 1.1px;
         padding: 20px 0;
         width: 70%;
         height: 10px;
         display: inline-block;
-        padding-top: 8%;
+        padding-top: 10%;
         margin-top: 0px;
         border-radius: 15px;
         font-family: 'Montserrat Alternates', sans-serif;
