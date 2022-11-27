@@ -434,10 +434,8 @@ a.read_more:hover{
     margin-bottom: -10px;
 }
 
-@media only screen and (max-width : 992px){
-
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@media only screen and (max-width:400px)
+{
     *{
         font-family: -apple-system, 'BlinkMacSystemFont', "Segoe UI", 'Roboto', 'Poppins', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     
@@ -451,7 +449,7 @@ a.read_more:hover{
     
     .banner {
         width: 100%;
-        height: 600px;
+        height: 700px;
         background: rgb(0,45,107);
         background: linear-gradient(90deg, #594EC4 0%, rgba(236,140,255,1) 100%);
     
@@ -480,11 +478,12 @@ a.read_more:hover{
         position: relative;
         display: table;
         margin: 0 auto;
+        opacity: 0;
     }
     .navbar ul li{
         list-style: none;
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 20px;
         position: relative;
     }
     
@@ -492,7 +491,8 @@ a.read_more:hover{
         text-decoration: none;
         color: #ffffff;
         font-weight: 100%;
-        font-size: 10px;
+        font-size: 0px;
+        letter-spacing: 1px;
         font-family: 'Lucida Grande', sans-serif;
     }
     
@@ -527,7 +527,25 @@ a.read_more:hover{
         border-bottom-width: 3.1px;
         width: fit-content;
       }
-      
+    
+    
+    .wrap{
+        width: 50%;
+        margin: auto;
+        margin-top: -45px;
+        opacity: 1;
+        padding-top: 6px;
+    }
+    
+    .icon{
+        width: 40px;
+        height: 5px;
+        background: #ffffff;
+        border-radius: 12px;
+        margin: 5px 120%;
+        margin-top: 0px;
+    }
+    
       .slantdiv{
         width: 100%;
         height: 600px;
@@ -538,7 +556,9 @@ a.read_more:hover{
         transform: skewY(5deg);
         transform-origin: top left;
         z-index: -1;
+        opacity: 0;
     }
+    
     
     .logo1{
         width: 70%;
@@ -546,7 +566,7 @@ a.read_more:hover{
         position: relative;
         text-align: center;
         margin: auto;
-        padding: 20px 0;
+        padding: 30px 0;
         
     }
     
@@ -565,6 +585,7 @@ a.read_more:hover{
         transform: rotate(10deg);
         filter: drop-shadow(-10px 10px 20px rgb(100, 100, 100));
         opacity: 0;
+        
     }
     
     .logo4
@@ -589,39 +610,58 @@ a.read_more:hover{
     }
     
     .content h1{
-        margin-top: -50px;
-        font-size: 45px;
+        margin-top: 10px;
+        font-size: 40px;
         color: #ffffff;
         font-family: 'poppins', sans-serif;
+        text-align: left;
+        padding-left: 65px;
     }
     
     .content h2{
         font-family: 'poppins', sans-serif;
         color: #ffffff;
-        margin-top: -30px;
+        margin-top: -20px;
+        text-align: left;
+        padding-left: 65px;
     }
     .content .pg{
         margin: 20px auto;
+        width: 68%;
         padding-top: 0px;
-        font-weight: 100;
         line-height: 25px;
-        font-size: 15px;
+        font-weight: 900;
+        font-size: 18px;
         color: #ffffff;
-        font-family: 'Montserrat Alternates', sans-serif;
+        font-family: 'poppins', sans-serif;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    .button1
+    {
+        margin-top: 40px;
+        text-align: left;
+        padding-left: 65px;
     }
     
     .button1 button {
-        width: 150px;
-        height: 40px;
+        align-items: left;
+        width: 70px;
+        height: 20px;
+        font-weight: bold;
         background: #ffffff;
+        padding-top: -10%;
+        padding-bottom: 20px;
         border: none;
-        font-size: 15px;
+        font-size: 7px;
         outline: none;
-        color: rgba(236,140,255,1);
+        color: linear-gradient(90deg, #594EC4 0%, rgba(236,140,255,1) 100%);
+        font-family: 'poppins', sans-serif;
         cursor: pointer;
         position: relative;
         z-index: 0;
-        border-radius: 10px;
+        border-radius: 5px;
     }
     
     .button1 button:before {
@@ -735,24 +775,23 @@ a.read_more:hover{
     
     
     .phone1{
-        margin-top: -50px;
+        margin-top: -500px;
         margin-right: 180px;
         opacity: 0;
     }
     .news {
         padding: 2px 0;
         font-size: 20px;
-        margin-top: 200px;
+        margin-top: 10px;
         font-family: 'poppins', sans-serif;
     }
     
     .news h2 {
         padding: 2px 0;
         font-size: 20px;
-       
+        font-weight: 900px;
         text-align: center;
         text-decoration: underline;
-        color: rgb(0,45,107);
         color: linear-gradient(180deg, rgba(0,45,107,1) 0%, rgba(236,140,255,1) 100%);
         text-underline-offset: 10px;
         font-family: 'poppins', sans-serif;
@@ -770,7 +809,7 @@ a.read_more:hover{
     }
     
     .box{
-        margin: 350px;
+        margin: auto;
         height: 200px;
         display: flex;
     }
@@ -779,30 +818,31 @@ a.read_more:hover{
         max-width: 70%;
         margin: 0 auto;
         height: 100%;
-        margin-top: 250px;
+        margin-top: 0px;
     }
     
     .container h2{
         padding: 2px 0;
-        font-size: 25px;
+        font-size: 20px;
         color: #000;
         text-align: center;
-        font-family: 'Montserrat Alternates', sans-serif;
+        font-family: 'poppins', sans-serif;
         text-decoration: underline;
         text-underline-offset: 10px;
     }
     
     .grid {
-        display: grid;
+        display: block;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 3%;
-        margin: 5% 0;
+        margin: 0% 0;
     }
     
     .card {
         overflow: hidden;
-        padding: 20px;
-        height: 85%;
+        padding-bottom: 0px;
+        margin-bottom: 10%;
+        height: 60%;
         background-color: #FFF;
         border-radius: 24px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -822,7 +862,7 @@ a.read_more:hover{
     
     
     .card_body {
-        padding: 26px 20px 36px 20px;
+        padding: 26px 20px 30px 20px;
     }
     
     .card_title{
@@ -887,6 +927,24 @@ a.read_more:hover{
         z-index: -1;
     }
     
+    .container4{
+        width: 100%;
+        height: 600px;
+        background: linear-gradient(90deg, #594EC4 0%, rgba(236,140,255,1) 100%);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transform: skewY(5deg);
+        margin-top: 100px;
+        transform-origin: top left;
+        opacity: 0;
+    }
+    
+    .cont4img img{
+        width: 50%;
+        border-radius: 24px;
+    }
+    
     .container3 h1 {
         font-weight: bold;
         margin: 0;
@@ -949,7 +1007,7 @@ a.read_more:hover{
     
     form {
         background-color: #FFFFFF;
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -987,8 +1045,10 @@ a.read_more:hover{
         margin: 0 auto;
         width: 70%;
         max-width: 100%;
+        margin-top: 70%;
         min-height: 480px;
         font-family: 'Montserrat', sans-serif;
+        display: block;
     }
     
     .form-container3 {
@@ -1073,7 +1133,7 @@ a.read_more:hover{
     
     .overlay-panel {
         position: absolute;
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -1155,14 +1215,14 @@ a.read_more:hover{
     }
     
     .footer .social{
-        margin-top: 50px;
+        margin-top: 10px;
         text-align: center;
         padding-bottom: 25px;
         color: #0088cc;
     }
     
     .footer .social a{
-        font-size: 24px;
+        font-size: 20px;
         text-decoration: none;
         color: #0088cc;
         border: 2px solid #0088cc;
@@ -1172,7 +1232,7 @@ a.read_more:hover{
         display: inline-block;
         text-align: center;
         border-radius: 50%;
-        margin: 0 8px;
+        margin: 0 5px;
         opacity: 0.75;
         transition: all 0.3s ease-in-out;
     }
@@ -1203,11 +1263,11 @@ a.read_more:hover{
     
     .footer ul li{
         display: inline-block;
-        padding: 0 15px;
+        padding: 0 8px;
     }
     
     .footer ul li a{
-        font-size: 16px;
+        font-size: 13px;
         width: 200px;
         height: 50px;
         color: #000000;
@@ -1217,7 +1277,7 @@ a.read_more:hover{
     }
     
     .footer ul .active a{
-        font-size: 16px;
+        font-size: 13px;
         width: 200px;
         height: 50px;
         color: #0088cc;
@@ -1235,11 +1295,10 @@ a.read_more:hover{
     .footer .lstqat{
         margin-top: 20px;
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
         color: #000;
-        font-family: 'Montserrat Alternates', sans-serif;
+        font-family: 'poppins', sans-serif;
         margin-bottom: -10px;
     }
     
-  } 
-
+}
