@@ -656,7 +656,7 @@ a.read_more:hover{
         border: none;
         font-size: 7px;
         outline: none;
-        color: linear-gradient(90deg, #594EC4 0%, rgba(236,140,255,1) 100%);
+        color: #594EC4;
         font-family: 'poppins', sans-serif;
         cursor: pointer;
         position: relative;
